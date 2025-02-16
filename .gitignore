@@ -3,7 +3,6 @@ out
 test-results
 .vscode
  
-test
 test.ts
 
 # Logs
