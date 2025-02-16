@@ -1,0 +1,40 @@
+{
+  "name": "letters-fr_be_ch-to-numbers",
+  "version": "0.0.1",
+  "description": "A lightweight JavaScript library that transforms letters to numbers, supporting the French, Belgian, and Swiss naming.",
+  "keywords": [
+    "letters to numbers",
+    "text to numbers",
+    "French support",
+    "Belgian support",
+    "Swiss support"
+  ],
+  "homepage": "https://github.com/GreenFlag31/letters-fr_be_ch-to-numbers#readme",
+  "bugs": {
+    "url": "https://github.com/GreenFlag31/letters-fr_be_ch-to-numbers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenFlag31/letters-fr_be_ch-to-numbers.git"
+  },
+  "license": "MIT",
+  "author": "Manu Claeys <unam31@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc && @powershell copy './package.json' 'dist/' && @powershell copy 'README.md' 'dist/' ",
+    "test": "tsc && mocha",
+    "start:dev": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.12",
+    "@types/mocha": "^10.0.6",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.0",
+    "typedoc": "^0.27.6",
+    "typedoc-github-theme": "^0.2.1",
+    "typescript": "^5.4.2"
+  }
+}

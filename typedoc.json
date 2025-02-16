@@ -1,0 +1,17 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "projectDocuments": ["./fuzzy-search.md"],
+  "out": "docs",
+  "exclude": ["**/test/**", "**/*.spec.ts", "**/node_modules/**"],
+  "includeVersion": true,
+  "name": "regex-helper-ease",
+  "lang": "en",
+  "excludeExternals": true,
+  "excludeInternal": true,
+
+  "plugin": ["typedoc-github-theme"],
+  "theme": "typedoc-github-theme",
+
+  "disableSources": true,
+  "hideGenerator": true
+}
