@@ -20,6 +20,7 @@ getNumbersFrom('nonante neuf'); // 99
 getNumbersFrom('mille huitante neuf'); // 1089
 getNumbersFrom('moins cent vingt-trois'); // -123
 getNumbersFrom('zéro virgule zéro zéro un'); // 0.001
+getNumbersFrom('Quatre cent vingt et un mille cinq cent trente-sept'); // 421537
 
 // if you wish to pass a custom separator (default support: "virgule", ",", "euros")
 getNumbersFrom('cinquante et un dollars et trente centimes', 'dollars'); // 51.3
