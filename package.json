@@ -1,6 +1,6 @@
 {
   "name": "letters-fr_be_ch-to-numbers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight JavaScript library that transforms letters to numbers, supporting the French, Belgian, and Swiss naming.",
   "keywords": [
     "letters to numbers",

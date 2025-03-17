@@ -32,6 +32,8 @@ Feel free! [Open a ticket](https://github.com/GreenFlag31/letters-fr_be_ch-to-nu
 
 ## Changelog
 
+0.0.2: Bug fixes.
+
 ## Discover others libraries
 
 All libraries are permanently supported. Discover them [here](https://www.npmjs.com/~greenflag31).

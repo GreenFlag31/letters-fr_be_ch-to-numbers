@@ -168,4 +168,10 @@ describe('getNumbersFrom', () => {
     const numbers = getNumbersFrom('Quatre cent vingt et un mille cinq cent trente-sept');
     assert.equal(numbers, 421537);
   });
+
+  it('can ends with cents', () => {
+    const numbers = getNumbersFrom('Septante-cinq euros et quarante-neuf cents');
+
+    assert.equal(numbers, 75.49);
+  });
 });

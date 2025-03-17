@@ -29,9 +29,8 @@ function getNumbersFrom(text: string, customSeparator = '', logging = false) {
 
   const total = getGeneralTotal(totalIntAndDecimals);
   const totalSigned = handleNegativeNumbers(integerPart, total);
-  console.log(totalSigned);
+
   return totalSigned;
 }
 
-getNumbersFrom('Mille septante euros');
 export { getNumbersFrom };
