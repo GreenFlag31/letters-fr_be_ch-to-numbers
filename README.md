@@ -32,7 +32,7 @@ Feel free! [Open a ticket](https://github.com/GreenFlag31/letters-fr_be_ch-to-nu
 
 ## Changelog
 
-0.0.2: Bug fixes.
+0.0.2: Bug fix.
 
 ## Discover others libraries
 
