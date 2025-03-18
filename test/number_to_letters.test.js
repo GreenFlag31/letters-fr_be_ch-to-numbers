@@ -169,9 +169,15 @@ describe('getNumbersFrom', () => {
     assert.equal(numbers, 421537);
   });
 
-  it('can ends with cents', () => {
+  it('can ends with cents (plural)', () => {
     const numbers = getNumbersFrom('Septante-cinq euros et quarante-neuf cents');
 
     assert.equal(numbers, 75.49);
+  });
+
+  it('can ends with cent (singular)', () => {
+    const numbers = getNumbersFrom('Septante-cinq euros et un cent');
+
+    assert.equal(numbers, 75.01);
   });
 });

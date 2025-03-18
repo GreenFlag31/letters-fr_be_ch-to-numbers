@@ -170,9 +170,8 @@ function handleIntegersPart(integerPart: string, logging: boolean) {
  */
 function handleDecimalsPart(decimalPart: string | undefined, logging: boolean) {
   if (!decimalPart) return 0;
-  const CENTS_ENDING = 'cents';
 
-  decimalPart = decimalPart.replace(CENTS_ENDING, '');
+  decimalPart = decimalPart.replace(/(cent|cents)$/i, '');
   const numberZeroRegex = new RegExp(/zero|zéro/, 'g');
   const numberZero = decimalPart.match(numberZeroRegex)?.length;
   const DIVISOR = 10 ** ((numberZero || 1) + 1);
